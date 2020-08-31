@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    position: static;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+} 
+li{
+    float: left;
+} 
+li a{
+    display: block;
+    color: rgb(111, 88, 88);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+li a:hover{
+    background-color: #111;
+    font-weight:bold;
+}
+#header{
+    background-image: url('ph.jpg');
+    background-size: cover;
+    width:100%;
+    height:500px ;
+}
+#header1{
+    background-image: url('airp.png');
+    background-size: cover;
+    width:100%;
+    height:700px ;
+}
+h1{
+    text-align: center;
+    font-size: 75px;
+}
+p{
+    text-align: center; 
+    font-size: 22px;
+}
+h2{
+    padding-top: 30px;
+    text-align: center; 
+    font-size: 25px;
+}
+h3{
+    font-size:2rem;
+}
+.three{
+    text-decoration: none;
+}
+th{
+    background-size: cover;
+    width: 330px;
+    height: 275px;
+}
+table{
+    padding-top: 34px;
+    border-spacing: 15px;
+    margin-right: 10px;
+    margin-left: 135px;
+    
+}
+.blog{
+    background-color: whitesmoke;
+    margin-left: 135px;
+    margin-right: 10px;
+    width: 1040px;
+    height: 500px;
+    margin-top:40px
+}
+.blog img{ 
+    width: 100%;
+}
+img {
+  width: 100%;
+  height: 65%;
+}
